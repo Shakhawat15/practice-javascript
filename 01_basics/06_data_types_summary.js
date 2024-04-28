@@ -43,3 +43,32 @@ const myFunction = function () {
 }
 
 // JavaScript is Dynamical data type
+
+
+// *************** Memory Types *************** //
+
+// Stack (Primitive) & Heap (Non Primitive)
+
+
+// Stack memory give the copy of his value: 
+let userName = "Shakhawat"
+
+let anotherUserName = userName;
+
+anotherUserName = "Sourov"
+
+// console.log(userName);
+// console.log(anotherUserName);
+
+// Heap memory give the reference of his value:
+const userOne = {
+    name: "Shakhawat",
+    age: 25 
+}
+
+const userTwo = userOne;
+
+userTwo.name = "Sourov"
+
+console.log(userOne.name);
+console.log(userTwo.name);
