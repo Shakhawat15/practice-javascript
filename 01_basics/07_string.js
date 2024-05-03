@@ -7,6 +7,9 @@ const age = 25;
 
 const gameName = new String('shakhawat-hc');
 
+// console.log(name);
+// console.log(gameName);
+
 // console.log(typeof gameName);
 // console.log(typeof name);
 
@@ -20,7 +23,7 @@ const gameName = new String('shakhawat-hc');
 
 const mood = 'Happy! '
 
-console.log(`I fell very ${mood.repeat(3)}`);
+// console.log(`I fell very ${mood.repeat(3)}`);
 
 const email = "  shakhawat@gmail.com       "
 
